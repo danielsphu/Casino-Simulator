@@ -11,7 +11,7 @@ def slots(money):
             money -= required_funds
             print("thank you for playing Slots, you didn't win, but better luck next time!"+"\n")
     else:
-        print("Sorry, insufficient funds")
+        print("Sorry, insufficient funds"+"\n")
     return money 
 
 def roulette(money):
